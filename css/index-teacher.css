@@ -1,0 +1,176 @@
+.white_line_left {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 358px;
+    height: auto;
+}
+
+.teacher {
+    background-image: url("../img/background_tems.png");
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5%; 
+}
+
+.teacher_h2 {
+    font-size: 40px;
+    color: var(--main-gold-color);
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+}
+
+.wang_xiangzhai {
+    background: #1b191a;
+    width: 100%;
+    margin: 20px 0 20px 0;
+    justify-content: space-around;
+    padding: 0 30px 0 30px;
+
+}
+
+.wang_xiangzhai_info {
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+    width: 70px;
+
+}
+
+.wang_xiangzhai_h3 {
+    font-size: 26px;
+    color: #c5a35c;
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+    padding: 0 0 70px 0;
+}
+
+.wang_xiangzhai_subs {
+    margin: 0;
+    font-size: 17px;
+    color: var(--white-text-color);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 0 50px 0;
+
+}
+
+.yao_chenhuan {
+    background: #1b191a;
+    width: 100%;
+    margin: 20px 0 20px 0;
+    justify-content: space-around;
+    padding: 0 30px 0 30px;
+
+}
+
+.yao_chenhuan_info {
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+    width: 70px;
+
+}
+
+.yao_chenhuan_h3 {
+    font-size: 26px;
+    color: #c5a35c;
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+    padding: 0 0 70px 0;
+}
+
+.yao_chenhuan_subs {
+    margin: 0;
+    font-size: 17px;
+    color: var(--white-text-color);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 0 50px 0;
+
+}
+
+@media (min-width: 600px) {
+    .teacher {
+        display: grid;
+
+    }
+    
+}
+
+@media (min-width: 940px) {
+    .container_teacher {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+}
+
+.teacher_wang_xiangzhai {
+    background-image: url("../img/background_tems.png");
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5%; 
+}
+@media (min-width: 768px) {
+    .teacher_wang_xiangzhai {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.teacher_wang {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.teacher_wang_image {
+    padding-left: 0px;
+    padding-right: 30px;
+    min-height: 30px;
+    margin: 15px 15px;
+}
+
+.teacher_wang_subs {
+    font-family: 'Robotto', sans-serif;
+    font-size: 16px;
+    color: var(--white-text-color);
+    text-align: left;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+
+.teacher_yao_chenhuan {
+    background-image: url("../img/background_tems.png");
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5%; 
+}
+@media (min-width: 768px) {
+    .teacher_yao_chenhuan {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.teacher_yao {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.teacher_yao_image {
+    padding-left: 0px;
+    padding-right: 30px;
+    min-height: 30px;
+    margin: 15px 15px;
+}
+
+.teacher_yao_subs {
+    font-family: 'Robotto', sans-serif;
+    font-size: 16px;
+    color: var(--white-text-color);
+    text-align: left;
+    margin: 20px;
+    padding-top: 20px;
+}
