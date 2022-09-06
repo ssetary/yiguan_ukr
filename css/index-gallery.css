@@ -9,3 +9,41 @@
     justify-content: center;
     padding: auto;    
 }
+
+.our-gallery-carousel img {
+    width: 320px;
+    margin: 35px auto;
+    padding: 0 15px 0 15px;
+    height: 280px;
+    
+}
+
+.our-gallery-carousel .slide {
+    display: flex;
+    justify-content: space-around;
+}
+
+.our-gallery-carousel {
+    display: flex;
+   
+}
+
+.forward {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #ffffff33;
+    border: 0px;
+    margin: auto;
+    
+}
+
+.backward {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #ffffff33;
+    border: 0px;
+    margin: auto;
+        
+}
