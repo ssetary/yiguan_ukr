@@ -1,0 +1,47 @@
+.header__top {
+    background-image: url(../img/background_tems.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 200px; 
+
+}
+
+
+.header__banner {
+    background-image: url(../img/main-page/header__top.jpg);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    min-height: 735px;
+    background-position: center;
+    padding-top: 700px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+} 
+
+.header__top-navigation-logo {
+    width: 200px;
+    height: auto;
+    margin-right: 90px;
+    margin-left: 20px;
+   padding-bottom: 20px;
+   font-family: 'BenchNine', sans-serif;
+}
+
+.single-dark-btn {
+    margin-top: 30px;
+}
+
+A {
+    color:#fff
+}
+
+.header__block {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+}
+.request-button {
+    border: solid 1px black;
+} 
