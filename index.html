@@ -5,8 +5,132 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Іцюань в Україні</title>
+    <link rel="shortcut icon" type="image/jpg" href="img/logotip-2.png" />
+    <script src="https://kit.fontawesome.com/5619db74ed.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <h1>Іцюань в Україні</h1>
+    <!-- Main page start -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#top-navbar"
+                    aria-controls="top-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="top-navbar">
+                    <div class="navbar-nav">
+                        <a href="#about-us" class="nav-link active" aria-current="page">Головна</a>
+                        <a href="history.html" class="nav-link">Історія Іцюань</a>
+                        <a href="teacher.html" class="nav-link">Вчителі</a>
+                        <a href="programma.html" class="nav-link">Програма занять</a>
+                        <a href="#contacts" class="nav-link">Контакти</a>
+                    <a href="#request-a-quote" class="nav-link request-button">Зробити запит</a>                 
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="header__top">
+            <nav class="header__top-navigation">
+                <div class="header__top-navigation-logo">
+                    <!-- <img src="img\main-page\header__top.jpg" alt="iquan">  -->
+                </div>
+            </nav>
+            <div class="header__banner">
+                <a href="#about-us" class="btn_dark">Головна</a>
+                <a href="#contacts" class="btn_light">Контакти</a>
+            </div>
+            <div class="header__block" style="background-color: #c5a35c">
+                <p>Іцюань рекомендовано займатись з 18-ти років.</p>
+            </div>
+        </div>
+    </header>
+    <!-- Main page end -->
+    <!-- Main page add start -->
+    <section id = "about-us" class="page_main">
+        <div class="location">
+            <img class="location_image" src="img/main-page/main_yiguan.jpg" alt="yiguan">
+        </div>
+        <div class="about_us">
+            <div class="about_us_text"></div>
+            <h2 class = "about_us_h2">Іцюань в Україні</h2>
+            <img class="img_simple_line white_line_left" src="img/whiteLine.png" alt="White-line">
+            <h4 class="about_us_h4"> заснований на розвитку природних можливостей людини, наукових засадах та поверненні до витоків бойових 
+                мистецтв.
+            </h4>
+            <p class="about_us_p">Іцюань (意拳) - одна з китайських систем єдиноборств, відома також як "кулак розуму (великої межі)"; її 
+                "брат близнюк" є Даченцюань (хоча по суті те саме) - нове бойове мистецтво, яке було створене в 1920-x Ван Сянчжаєм (1885—1963). 
+                <br><br>
+                Ван Сянчжай шукав найкращих майстрів бойових мистецтв свого часу, щоб зрозуміти «сутність боксу». Пізніше він створив нове мистецтво, викинувши з часом щось несуттєве і те, що могло бути замінено 
+                на щось, що давало кращі чи швидші результати. Поступово в системі з'явилися внутрішні аспекти, щоб домінувати 
+                над усіма частинами.</p>
+            <div class="container-button-social">
+                <a href="https://www.facebook.com/groups/yiquan.ua/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/yiquankiev/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
+    </section>
+    <!-- Main page add end -->
+    <!-- gallery start -->
+    <section class = "our_gallery">
+        <div class="our_gallery_text"></div> 
+        <!-- <h2 class="our_gallery_h2">Фотогалерея</h2> -->
+            <div class = "our-gallery-carousel">
+                <button class="backward">ᐊ</button>
+                <div class="slide"></div>
+                <button class="forward">ᐅ</button>
+        </div>
+    </section>
+        <!-- gallery end -->
+    <!-- contakt start-->
+            <section id="contacts" class="contacts">
+                <div class="contacts-column">
+                    <div class="contacts__phone">
+                        <h2 id="request-a-quote" class="contacts__phone-h2">Контакти</h2>
+                        <h4 class="contacts__phone-h4">Зв'яжіться з нами, щоб обговорити  будь-яке питання, яке у вас може виникнути.</h4>
+                        <div class="contacts__address">
+                            <h3 class="contacts__h3">Адреса</h3>
+                            <p class="contacts__text">вулиця Парково-Сирецька, Київ,<br>Україна, 01001 </p>
+                        </div>
+                        <div class="contacts__contacts">
+                            <h3 class="contacts__h3">Контакти</h3>
+                            <p class="contacts__text">+38 (096) 409 28 08 <br>gid1@ukr.net</p>
+                        </div>
+                    </div>
+                    <div class="contacts__location">
+                        <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.5814022095024!2d30.436506915446703!3d50.46751917947776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cdb5100dc6bf%3A0x4816fc68494bc724!2z0KHQuNGA0LXRhtGM0LrQuNC5INC_0LDRgNC6!5e0!3m2!1suk!2sde!4v1661635002830!5m2!1suk!2sde" 
+                        width="400" height="400" style="border:0;" 
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    </div>
+                </div>
+                <div class="contacts__form">
+                    <input type="text" name="contacts__name" class="contacts__form-fields contacts__form-name "
+                        placeholder="Введіть Ваше повне ім'я*" required>
+                    <input type="number" name="contacts__phone" class="contacts__form-fields contacts__form-phone"
+                        placeholder="Введіть Ваш номер телефону*" required>
+                    <input type="email" name="contacts__email" class="contacts__form-fields contacts__form-email"
+                        placeholder="Введіть адресу вашої електронної пошти*" required>
+                    <input type="text" name="contacts__bio" class="contacts__form-fields contacts__form-bio"
+                        placeholder="Введіть Ваше повідомлення">
+                    <button class="btn_light contacts__btn">Зробити запит</button>
+                </div>
+            </section>
+            <!-- contakt end-->  
+            <!-- LEARN ABOUT CLASSES start -->
+            <div class = "learn_classes">
+                <div class = "learn_classes_text">
+                <h4 class = "learn_classes_h4">Дізнатися детальніше про заняття</h4>
+                <p class = "learn_classes_p">Зателефонуйте нам +38 (096) 409 28 08, будемо раді відповісти на всі Ваші запитання!</p>
+            </div>
+            <!-- LEARN ABOUT CLASSES end -->
+            <!-- create start -->
+            <!-- <div class = "create_web" style="background-color: #242424"> -->
+                <p>©2022 Іцюань в Україні</p>
+            </div>
+            <!-- create end -->
 </body>
 </html>
