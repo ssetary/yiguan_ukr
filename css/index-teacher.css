@@ -60,7 +60,7 @@
 .wang_xiangzhai_subs_plus {
     margin: 0;
     font-size: 17px;
-    color: #e5e5da;
+    color: var(--white-text-color);
     text-align: center;
     font-family: 'Roboto', sans-serif;
     padding: 0 0 50px 0;
@@ -103,7 +103,7 @@
 .yao_chenhuan_subs_plus {
     margin: 0;
     font-size: 17px;
-    color: #e5e5da;
+    color: var(--white-text-color);
     text-align: center;
     font-family: 'Roboto', sans-serif;
     padding: 0 0 50px 0;
@@ -124,3 +124,4 @@
         gap: 40px;
     }
 }
+
