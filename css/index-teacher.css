@@ -50,11 +50,20 @@
 .wang_xiangzhai_subs {
     margin: 0;
     font-size: 17px;
-    color: var(--white-text-color);
+    color: #c5a35c;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     padding: 0 0 50px 0;
 
+}
+
+.wang_xiangzhai_subs_plus {
+    margin: 0;
+    font-size: 17px;
+    color: #e5e5da;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 0 50px 0;
 }
 
 .yao_chenhuan {
@@ -85,11 +94,19 @@
 .yao_chenhuan_subs {
     margin: 0;
     font-size: 17px;
-    color: var(--white-text-color);
+    color: #c5a35c;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     padding: 0 0 50px 0;
 
+}
+.yao_chenhuan_subs_plus {
+    margin: 0;
+    font-size: 17px;
+    color: #e5e5da;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 0 50px 0;
 }
 
 @media (min-width: 600px) {
@@ -106,71 +123,4 @@
         grid-template-columns: 1fr 1fr;
         gap: 40px;
     }
-}
-
-.teacher_wang_xiangzhai {
-    background-image: url("../img/background_tems.png");
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 5%; 
-}
-@media (min-width: 768px) {
-    .teacher_wang_xiangzhai {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-.teacher_wang {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-}
-.teacher_wang_image {
-    padding-left: 0px;
-    padding-right: 30px;
-    min-height: 30px;
-    margin: 15px 15px;
-}
-
-.teacher_wang_subs {
-    font-family: 'Robotto', sans-serif;
-    font-size: 16px;
-    color: var(--white-text-color);
-    text-align: left;
-    margin: 20px;
-    padding-top: 20px;
-}
-
-
-.teacher_yao_chenhuan {
-    background-image: url("../img/background_tems.png");
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 5%; 
-}
-@media (min-width: 768px) {
-    .teacher_yao_chenhuan {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-.teacher_yao {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-}
-.teacher_yao_image {
-    padding-left: 0px;
-    padding-right: 30px;
-    min-height: 30px;
-    margin: 15px 15px;
-}
-
-.teacher_yao_subs {
-    font-family: 'Robotto', sans-serif;
-    font-size: 16px;
-    color: var(--white-text-color);
-    text-align: left;
-    margin: 20px;
-    padding-top: 20px;
 }
