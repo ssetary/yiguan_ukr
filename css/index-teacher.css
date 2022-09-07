@@ -57,15 +57,6 @@
 
 }
 
-.wang_xiangzhai_subs_plus {
-    margin: 0;
-    font-size: 17px;
-    color: #f3f2ef;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    padding: 0 0 50px 0;
-}
-
 .yao_chenhuan {
     background: #1b191a;
     width: 100%;
@@ -100,10 +91,10 @@
     padding: 0 0 50px 0;
 
 }
-.yao_chenhuan_subs_plus {
+.teacher_subs_plus {
     margin: 0;
     font-size: 17px;
-    color: #f3f2ef;
+    color: var(--white-text-color);
     text-align: center;
     font-family: 'Roboto', sans-serif;
     padding: 0 0 50px 0;
