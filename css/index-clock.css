@@ -1,0 +1,7 @@
+.header__clock {
+    font-size: 20px;
+    /* text-align: center; */
+    margin: 5px;
+    color: rgb(208, 15, 15);
+    font-weight: 50%;
+}
