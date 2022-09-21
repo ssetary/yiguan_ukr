@@ -61,7 +61,7 @@
     flex-direction: column;
 }
 
-.contacts__form-fields {
+.contacts__form_fields {
     background-color: var(--button-changed-color);
     border: 0px;
     margin-top: 10px;
